@@ -14,6 +14,7 @@ import {zodResolver} from "@hookform/resolvers/zod";
 import {z} from "zod";
 import {write} from "@/app/feedFetch";
 
+// @ts-ignore
 export default function MarkdownEditor({content,setContent}){
     return (
         <div className="grid w-full gap-2">
